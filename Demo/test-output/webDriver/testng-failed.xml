@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [webDriver]">
+  <parameter name="BROWSER" value="CH"/>
+  <test name="WebDriverDemo Witn FF(failed)">
+    <parameter name="BROWSER" value="FF"/>
+    <classes>
+      <class name="Parallel">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="testParallel"/>
+        </methods>
+      </class> <!-- Parallel -->
+    </classes>
+  </test> <!-- WebDriverDemo Witn FF(failed) -->
+  <test name="WebDriverDemo with IE(failed)">
+    <parameter name="BROWSER" value="IE"/>
+    <classes>
+      <class name="Parallel">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="testParallel"/>
+        </methods>
+      </class> <!-- Parallel -->
+    </classes>
+  </test> <!-- WebDriverDemo with IE(failed) -->
+  <test name="WebDriverDemo Witn Safari(failed)">
+    <parameter name="BROWSER" value="SF"/>
+    <classes>
+      <class name="Parallel">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="testParallel"/>
+        </methods>
+      </class> <!-- Parallel -->
+    </classes>
+  </test> <!-- WebDriverDemo Witn Safari(failed) -->
+  <test name="WebDriverDemo with HTML unit(failed)">
+    <parameter name="BROWSER" value="CH"/>
+    <classes>
+      <class name="Parallel">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="testParallel"/>
+        </methods>
+      </class> <!-- Parallel -->
+    </classes>
+  </test> <!-- WebDriverDemo with HTML unit(failed) -->
+</suite> <!-- Failed suite [webDriver] -->

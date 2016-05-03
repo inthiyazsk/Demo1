@@ -1,0 +1,32 @@
+<suite name="webDriver">
+  <test name="WebDriverDemo With FF" preserve-order="true">
+  <parameter name="BROWSER" value="FF" />
+  <classes>
+   <class name="Parallel" />
+  </classes>
+ </test>
+ <test name="WebDriverDemo with IE" preserve-order="true">
+  <parameter name="BROWSER" value="IE"></parameter>
+  <classes>
+   <class name="Parallel"></class>
+  </classes>
+ </test> 
+   
+
+  <test name="WebDriverDemo With Safari" preserve-order="true">
+  <parameter name="BROWSER" value="SF" />
+  <classes>
+   <class name="Parallel" />
+  </classes>
+ </test>
+ 
+ <test name="WebDriverDemo with HTML unit" preserve-order="true">
+  <parameter name="BROWSER" value="CH"></parameter>
+  <classes>
+   <class name="Parallel"></class>
+  </classes>
+ </test>
+ 
+
+
+</suite>
